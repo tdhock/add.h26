@@ -12,7 +12,7 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 
 // add_interface
 Rcpp::NumericVector add_interface(Rcpp::NumericVector input1, Rcpp::NumericVector input2);
-RcppExport SEXP _Rcpp_add_add_interface(SEXP input1SEXP, SEXP input2SEXP) {
+RcppExport SEXP _add_h26_add_interface(SEXP input1SEXP, SEXP input2SEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -24,11 +24,11 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_Rcpp_add_add_interface", (DL_FUNC) &_Rcpp_add_add_interface, 2},
+    {"_add_h26_add_interface", (DL_FUNC) &_add_h26_add_interface, 2},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_Rcpp_add(DllInfo *dll) {
+RcppExport void R_init_add_h26(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }

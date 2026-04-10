@@ -2,6 +2,6 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 add_interface <- function(input1, input2) {
-    .Call('_Rcpp_add_add_interface', PACKAGE = 'Rcpp.add', input1, input2)
+    .Call('_add_h26_add_interface', PACKAGE = 'add.h26', input1, input2)
 }
 
