@@ -22,5 +22,5 @@ add_interface(input1, input2)
   Toby Dylan Hocking
 }
 \examples{
-Rcpp.add::add_interface(c(NA,1,Inf),3:5)
+add.h26::add_interface(c(NA,1,Inf),3:5)
 }
